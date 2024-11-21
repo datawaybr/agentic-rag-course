@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "agentic-rag-course"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Saraiva <galves.srv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.10,<=3.12"
+openai = "^1.52.0"
+googlesearch-python = "^1.2.5"
+qdrant-client = "^1.12.0"
+transformers = "^4.45.2"
+torch = "^2.5.0"
+click = "^8.1.7"
+streamlit = "^1.39.0"
+streamlit-chat = "^0.1.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
